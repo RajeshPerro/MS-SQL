@@ -1,4 +1,4 @@
---Task-1 : Create three procedures to insert data to any free tables in the AdventureWorks database.
+--Task-1 : Create procedure to insert data to any free tables in the AdventureWorks database.
 ALTER PROCEDURE Person.addNewPerson
 			@personType nchar (2), @nameStyle bit, @title varchar(10),@firstName varchar (20), @lastName varchar (20), @emailPromotion int
 as
